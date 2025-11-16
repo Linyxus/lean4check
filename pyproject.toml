@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lean4check"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for checking Lean 4 files and providing formatted diagnostics"
 readme = "README.md"
 requires-python = ">=3.13"

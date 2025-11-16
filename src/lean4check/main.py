@@ -311,8 +311,8 @@ def main():
     parser.add_argument(
         "--root",
         type=Path,
-        required=True,
-        help="Root directory of the Lean 4 project"
+        default=Path("."),
+        help="Root directory of the Lean 4 project (defaults to current directory)"
     )
 
     args = parser.parse_args()
